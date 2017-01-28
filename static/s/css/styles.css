@@ -1,0 +1,91 @@
+body {
+    background: url("../img/white_back.jpg");
+    padding-top: 30px;
+    width: 800px;
+    margin: auto;
+}
+
+a {
+    color:#0000FF;
+}
+
+a:visited {
+    color:#CD5C5C;
+}
+
+a:active {
+    color: #00FF00;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#right {
+    float: right; width: 48%;
+}
+
+#left {
+    float: left; width: 48%;
+}
+
+#right img {
+    width: 100%;
+    max-width:500px;
+    min-width:300px;
+}
+
+#left img {
+    height: 14px; width:14px;
+}
+
+h1 {
+    margin: 0 0 20px;
+}
+
+h2 {
+    font-size:large;
+    font-weight:bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+hr {
+    color: #990000; size:1px;
+}
+
+#main {
+    border-bottom: 1px solid #990000; margin: 10px;
+}
+
+#main div {
+    margin: 10px 0;
+}
+
+#video-classes {
+    margin: 10px;
+}
+
+.caption {
+    margin-top: 0px;
+    margin-bottom: 23px;
+    font-size: 11pt;
+    font-weight:bold;
+}
+
+.address {
+    font-style:italic;
+}
+
+.address a {
+    font-style: normal;
+}
+
+.title {
+    text-decoration: underline;
+    font-weight:bold;
+}
