@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  static:
+    build: ./static
+    volumes:
+      - ./static:/usr/share/static
+
+  nginx:
+    restart: always
+    build: ./nginx
+    ports:
+      - "80:80"
+    volumes_from:
+      - static
